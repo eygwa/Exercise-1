@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="globals.css"/>
+    <title>Parker Portfolio</title>
+</head>
+
+<body>
+<header>
+    <h1>Parker Portfolio</h1>
+    <nav>
+        <ul class="navLinkWrapper">
+            <li class="navBtn"><a href="#about">About</a></li>
+            <li class="navBtn"><a href="#projects">Projects</a></li>
+            <li class="navBtn"><a href="#music">Music</a></li>
+            <li class="navBtn"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div style="position: relative" id="about"> <!--this is kind of ugly tag wise but i like the effect-->
+        <h2>About Me</h2>
+        <h2 style="z-index: -1; position:absolute; top:1px; left:-1px; color: #dc2626">About Me</h2>
+        <h2 style="z-index: -2; position:absolute; top:2px; left:-2px; color: #84cc16">About Me</h2>
+        <h2 style="z-index: -3; position:absolute; top:3px; left:-3px; color: #6366f1">About Me</h2>
+        <h2 style="z-index: -4; position:absolute; top:4px; left:-4px; color: #ec4899">About Me</h2>
+    </div>
+    <section style="display:flex; gap:20px">
+        <div class="itmsWrapper">
+            <article aria-label="General Information">
+                <h3 class="articleTitle">General Information</h3>
+                <div style="padding:10px; display:flex; flex-direction:row; align-items:center; justify-content:space-between">
+                    <figure style="display:flex; flex-direction: column; align-items:center; justify-content:center">
+                        <img src="https://via.placeholder.com/150" alt="LINK PROVIDED IS DEAD :c" width="300">
+                        <figcaption>a placeholder link to an image</figcaption>
+                    </figure>
+                    <p>
+                        I am (William) <strong>Parker</strong> Seeley (IV).
+                        As I am the fourth, typically I go by my middle name.
+                        I am a software developer by trade & a hobby music producer
+                    </p>
+                </div>
+            </article>
+            <span style="width: 3px; background:grey; border-radius: 5px"></span>
+            <aside style="flex-grow:4" aria-label="fun facts">
+                <p><strong>fun fact!</strong></p>
+                <!--i know this should be a list but it just takes up alot of screen space and looks ugly-->
+                <p>
+                    I have lived in:
+                    new york (city),
+                    conecticuit,
+                    pensylvania,
+                    Maine, &
+                    Texas
+                    all for over a year!
+                </p>
+            </aside>
+        </div>
+    </section>
+
+    <div id="spacer" style="height:30px; width:1px"></div>
+
+    <section style="display:flex; gap:20px;">
+        <div class="itmsWrapper">
+            <article aria-label="Education">
+                <h3 class="articleTitle">Education</h3>
+                <div style="padding:10px; display:flex; flex-direction:row; align-items:center; justify-content:space-between; gap:10px;">
+                    <figure style="display:flex; flex-direction: column; align-items:center; justify-content:center">
+                        <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fsuathletics.com%2Fimages%2F2023%2F1%2F13%2Fslideshow_3_WGF68.png&width=1200&height=1400&type=webp"
+                             alt="Syracuse Campus"
+                             width="200"
+                        >
+                        <figcaption>Syracuse campus</figcaption>
+                    </figure>
+                    <p>
+                        I did my undergraduate program studying Computer Science at Syracuse University, earning my BSCS
+                        in
+                        2019.
+                    </p>
+                </div>
+            </article>
+            <article aria-label="Work Experience">
+                <h3 class="articleTitle">Work</h3>
+                <div style="padding:10px; display:flex; flex-direction:row; align-items:center; justify-content:space-between; gap:10px;">
+                    <figure style="display:flex; flex-direction: column; align-items:center; justify-content:center">
+                        <img src="https://www.tdi-bi.com/wp-content/uploads/2024/01/Nautilus_2024d.jpg"
+                             alt="TDI Brooks Nautilus"
+                             width="200"
+                        >
+                        <figcaption>A ship from our fleet</figcaption>
+                    </figure>
+                    <p>
+                        I have spent the last year and a half doing software development for TDI Brooks Intl, a
+                        Geotechnical Surveying company.
+                        My primary focus has been on developing our intranet system and working on internal services.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <div style="position: relative" id="projects"> <!--this is kind of ugly-->
+        <h2>Coding Projects</h2>
+        <h2 style="z-index: -1; position:absolute; top:1px; left:-1px; color: #dc2626">Coding Projects</h2>
+        <h2 style="z-index: -2; position:absolute; top:2px; left:-2px; color: #84cc16">Coding Projects</h2>
+        <h2 style="z-index: -3; position:absolute; top:3px; left:-3px; color: #6366f1">Coding Projects</h2>
+        <h2 style="z-index: -4; position:absolute; top:4px; left:-4px; color: #ec4899">Coding Projects</h2>
+    </div>
+
+    <section>
+        <div class="itmsWrapper">
+            <a>
+                <article class="projectArticle" aria-label="Field Days Project">
+                    <h3 class="articleTitle">
+                        field days
+                    </h3>
+                    <p style="padding-left:10px;">
+                        This is a tool developed to do payroll for ofshore/on vessel worksers @ tdi
+                    </p>
+                    <ul style="margin:0; padding-top:0">
+                        <li>
+                            <p>
+                                Email services for recovery & reports
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                designed to support both international & domestic workers
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                plenty of administrative features to audit data and manage users
+                            </p>
+                        </li>
+                        <li><a href=https://github.com/TDI-BI/dayratereport>view here</a></li>
+                    </ul>
+
+                </article>
+                <article class="projectArticle" aria-label="ShipDash Project">
+                    <h3 class="articleTitle">
+                        ShipDash
+                    </h3>
+                    <p style="padding-left:10px;">
+                        General operations dashboard for all ships @ tdi
+                    </p>
+                    <ul style="margin:0; padding-top:0">
+                        <li>
+                            <p>
+                                Daily SPR form, streamlining & normalizing SPR reports
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                hosts libraries for critical operation documents
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                collects & displays data captured via automated onboard reporting devices
+                            </p>
+                        </li>
+                        <li><p>no link, private org repository</p></li>
+                    </ul>
+                </article>
+                <article class="projectArticle" aria-label="WSB Stock Project">
+                    <h3 class="articleTitle">
+                        WSB Stock Analysis
+                    </h3>
+                    <p style="padding-left:10px;">
+                        An attempt at drawing correlation between mind and analysed sentiment from the WSB reddit and
+                        real world stock performances (no correlation found :c). this was the final project for a data
+                        mining class during my undergrad
+                    </p>
+                    <ul style="margin:0; padding-top:0; padding-bottom:10px">
+                        <li>
+                            <p>
+                                reddit post data miner
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                sentiment analysis script
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                regression models to draw conclusions
+                            </p>
+                        </li>
+                        <li><a href=https://github.com/eygwa/robinhood-WSB-project>view here</a></li>
+                    </ul>
+                </article>
+        </div>
+    </section>
+
+    <div style="position: relative" id="music"> <!--this is kind of ugly-->
+        <h2>Music</h2>
+        <h2 style="z-index: -1; position:absolute; top:1px; left:-1px; color: #dc2626">Music</h2>
+        <h2 style="z-index: -2; position:absolute; top:2px; left:-2px; color: #84cc16">Music</h2>
+        <h2 style="z-index: -3; position:absolute; top:3px; left:-3px; color: #6366f1">Music</h2>
+        <h2 style="z-index: -4; position:absolute; top:4px; left:-4px; color: #ec4899">Music</h2>
+    </div>
+    <section>
+        <div style="display:flex; flex-direction:column; align-content:  center; align-items: center; ">
+
+            <div style="position:relative;" aria-label="Recent Releases">
+                <h3 class="musicTitle">
+                    recent
+                </h3>
+                <ul class="contentWrapper">
+                    <li>
+                        <p>Anything4u</p>
+                        <audio controls>
+                            <source src="https://dl.dropbox.com/scl/fi/wirds0hgblum2w9454bvw/anything4u_demo.wav?rlkey=3zancfyc1ugvagip4mdyma6yj&st=np2y2hdo&dl=0" type="audio/wav"/>
+                            element not supported by browser
+                        </audio>
+                    </li>
+                    <li>
+                        <p>Atmosphere</p>
+                        <audio controls>
+                            <source src="https://dl.dropbox.com/scl/fi/gun2o4c1dystne7izygbv/atmosphere_demo.wav?rlkey=gxdaj3aw1c2jrxk37r5x72264&st=4y0l4skt&dl=0" type="audio/wav"/>
+                            element not supported by browser
+                        </audio>
+                    </li>
+                    <li>
+                        <p>If It Kills Me</p>
+                        <audio controls>
+                            <source src="https://dl.dropbox.com/scl/fi/6x5dhnjhtg65nznfrc93p/IFITKILLSME_demo.wav?rlkey=d66yktfxcmfwp12bg3u6ddi9g&e=1&st=zax1iobu&dl=0" type="audio/wav"/>
+                            element not supported by browser
+                        </audio>
+                    </li>
+                </ul>
+            </div>
+
+            <div style="position:relative;" aria-label="Upcoming Releases">
+                <h3 class="musicTitle">
+                    upcoming
+                </h3>
+                <ul class="contentWrapper">
+                    <li>
+                        <p>Bestshot w/ Blumiere</p>
+                        <audio controls>
+                            <source src="https://dl.dropbox.com/scl/fi/ao8eqgtbpzn940sytym14/BESTSHOT_demo.wav?rlkey=0nu2wrkig7kytcgizzoj9udeq&st=106ejx27&dl=0" type="audio/wav"/>
+                            element not supported by browser
+                        </audio>
+                    </li>
+                    <li>
+                        <p>Earthquake</p>
+                        <audio controls>
+                            <source src="https://dl.dropbox.com/scl/fi/wna1qdylb5s4mcknz0hik/earthquake_demo.wav?rlkey=aat4xv1j6fpibdfnjl0gx2gpw&st=mob7o2re&dl=0" type="audio/wav"/>
+                            element not supported by browser
+                        </audio>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div style="position: relative" id="contact"> <!--this is kind of ugly-->
+        <h2>Contact Me!</h2>
+        <h2 style="z-index: -1; position:absolute; top:1px; left:-1px; color: #dc2626">Contact Me!</h2>
+        <h2 style="z-index: -2; position:absolute; top:2px; left:-2px; color: #84cc16">Contact Me!</h2>
+        <h2 style="z-index: -3; position:absolute; top:3px; left:-3px; color: #6366f1">Contact Me!</h2>
+        <h2 style="z-index: -4; position:absolute; top:4px; left:-4px; color: #ec4899">Contact Me!</h2>
+    </div>
+
+    <section>
+        <div style="display:flex; flex-direction:column; align-content:  center; align-items: center;">
+
+            <form action="#"
+                  style="display:flex; flex-direction:column; gap:10px; justify-content: center;">
+                <span style="width: 500px; height:3px; background:grey; border-radius: 5px"></span>
+                <div class="formLine">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text">
+                </div>
+                <div class="formLine">
+                    <label for="email">Email</label>
+                    <input id="email" type="text">
+                </div>
+                <div class="formLine">
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="formLine">
+                    <label style='display:none ' for="submit">Submit</label>
+                </div>
+                <div class="formLine">
+                    <button id="submit">
+                        Submit
+                    </button>
+                </div>
+                <span style="width: 500px; height:3px; background:grey; border-radius: 5px"></span>
+            </form>
+
+        </div>
+    </section>
+
+</main>
+
+<footer style="display:flex; justify-content:space-between; padding:20px; align-items:center; gap:10px;">
+    <p>© 2025 Parker Seeley, all rights reserved</p>
+    <a href="https://github.com/eygwa/">github</a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
+
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.1em; /* default size seemed a little hard to read */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    margin-bottom: 5px;
+}
+
+h1 { /*these colors are all pulled from tailwind https://tailscan.com/colors*/
+    padding: 0px 5px;
+    box-shadow: -3px 3px 0px 0px #dc2626,
+    -6px 6px 0px 0px #84cc16,
+    -9px 9px 0px 0px #6366f1,
+    -12px 12px 0px 0px #ec4899;
+}
+
+p {
+    max-width: 300px;
+}
+
+.navLinkWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navBtn {
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1300px;
+    padding-left: 70px;
+    padding-right: 70px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+article {
+    padding-top: 10px;
+    border-radius: 12px;
+    background: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: -3px 3px 0px 0px rgba(0, 0, 0, 0.3);
+    flex-grow: 1;
+    position: relative;
+}
+
+.itmsWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background: cornflowerblue;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    list-style: none;
+    box-shadow: -3px 3px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+.musicTitle {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    background: lightgrey;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.articleTitle {
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    background: cornflowerblue;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+img {
+    border-radius: 12px;
+    box-shadow: -3px 3px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+figcaption {
+    padding-top: 10px;
+}
+
+.formLine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+button {
+    all: unset;
+    border-radius: 12px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    max-width: 150px;
+    user-select: none;
+
+    /*for hover*/
+    box-shadow: -0px 0px 0px 0px #dc2626,
+    -0px 0px 0px 0px #84cc16,
+    -0px 0px 0px 0px #6366f1,
+    -0px -0px 0px 0px #ec4899;
+    transition: all 0.2s ease-in-out;
+}
+button:hover {
+    transform: scale(1.05);
+    box-shadow: -1px 1px 0px 0px #dc2626,
+    -2px 2px 0px 0px #84cc16,
+    -3px 3px 0px 0px #6366f1,
+    -4px 4px 0px 0px #ec4899;
+}
